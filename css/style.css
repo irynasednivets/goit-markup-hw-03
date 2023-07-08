@@ -82,7 +82,7 @@ body {
 }
 .header_li{
     display: flex;
-    gap: 24px;
+    gap: 40px;
 }
 .header_menu_li{
     display: flex;
