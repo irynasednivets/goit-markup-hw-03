@@ -79,6 +79,7 @@ body {
     flex-grow: 1;
     gap: 40px;
     justify-content: space-between;
+    margin-right: 292px;
 }
 .header_li{
     display: flex;
