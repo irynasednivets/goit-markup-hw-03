@@ -74,12 +74,15 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
+    gap: 40px;
 }
 .header_li{
     display: flex;
+    padding: 24px 0;
 }
 .contacts_li{
     display: flex;
+    gap: 40px;
 }
 .header_menu_item {
     font-weight: 500;
