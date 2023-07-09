@@ -277,6 +277,7 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-black);
+    margin-bottom: 72px;
 }
 
 .main_activity_item {
@@ -285,7 +286,6 @@ body {
 
 .main_team_item {
     background-color: var(--basic-white);
-    margin-bottom: 72px;
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
