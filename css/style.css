@@ -187,14 +187,15 @@ body {
 .button_q:focus {
     background-color: var(--hover-color);
 }
-
+.main_info{
+    padding: 120px 0;
+}
 .main_info_title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-black);
-    padding: 120px 0;
 }
 .visually-hidden{
     position: absolute;
@@ -232,7 +233,9 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-black);
 }
-
+.main_activity_section{
+    padding-bottom: 120px; 
+}
 .main_activity_title {
     font-size: 36px;
     line-height: 1.11;
@@ -240,9 +243,13 @@ body {
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: var(--primary-black);
+    margin-bottom: 72px;
 }
 
-
+.main_activity{
+    display: flex; 
+    gap: 24px;
+}
 .main_team {
     background-color: var(--secondary-whitecolor);
 }
@@ -255,7 +262,9 @@ body {
     text-transform: capitalize;
     color: var(--primary-black);
 }
-
+.main_activity_item{
+    width: calc((100% - 48px) / 3);
+}
 .main_team_item {
     background-color: var(--basic-white);
 }
