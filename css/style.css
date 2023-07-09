@@ -19,9 +19,11 @@ h6 {
     margin-top: 0;
     margin-bottom: 0;
 }
-img{
+
+img {
     display: block;
 }
+
 ul,
 ol {
     margin-top: 0;
@@ -296,16 +298,18 @@ body {
     display: flex;
     gap: 24px;
 }
-.team_text{
+
+.team_text {
     padding: 32px 16px;
 }
+
 .main_team_item_title {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--primary-black);
-    text-align: center; 
+    text-align: center;
     margin-bottom: 8px;
 }
 
@@ -330,8 +334,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--basic-color-logo);
-    display: inline-block; 
-    margin-bottom: 16px; 
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .footer_logo_studio {
@@ -352,6 +356,19 @@ body {
 
 }
 
+.portfolio_main_but {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+.portfolio_button{
+    display: flex; 
+    justify-content: center;
+    gap: 24px; 
+    margin-bottom: 72px;
+}
+.potfolio_main_item{
+
+}
 .portfolio_but {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
