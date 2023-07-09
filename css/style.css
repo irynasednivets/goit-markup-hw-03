@@ -319,6 +319,7 @@ body {
 
 .footer_section {
     background-color: var(--primary-black);
+    padding: 100px 0;
 }
 
 .footer_logo {
@@ -329,6 +330,8 @@ body {
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--basic-color-logo);
+    display: inline-block; 
+    margin-bottom: 16px; 
 }
 
 .footer_logo_studio {
