@@ -46,8 +46,6 @@ body {
 }
 
 .header-cont {
-    padding-top: 24px;
-    padding-bottom: 24px;
     border-bottom: 1px solid #e7e9fc;
 }
 
@@ -84,22 +82,13 @@ body {
     display: flex;
     align-items: center;
     flex-grow: 1;
-    gap: 40px;
-    justify-content: space-between;
-    margin-right: 292px;
 }
 
 .header_li {
     display: flex;
     gap: 40px;
 }
-
-.header_menu_li {
-    display: flex;
-    padding: 24px 0;
-}
-
-.contacts_li {
+.contacts_list {
     display: flex;
     gap: 40px;
 }
@@ -121,6 +110,8 @@ body {
 
 .header_menu_li {
     color: var(--primary-black);
+    display: block;
+    padding: 24px 0;
 }
 
 .header_menu_li:hover {
@@ -143,19 +134,15 @@ body {
     color: var(--secondary-black);
 }
 
-.contacts_li {
-    text-decoration: none;
-}
-
-.contacts_li {
+.contacts_list {
     color: var(--secondary-black);
 }
 
-.contacts_li:hover {
+.contacts_link:hover {
     color: var(--hover-color);
 }
 
-.contacts_li:focus {
+.contacts_link:focus {
     color: var(--hover-color);
 }
 
@@ -172,6 +159,8 @@ body {
     letter-spacing: 0.02em;
     color: var(--basic-white);
     max-width: 496px;
+    margin: auto;
+    margin-bottom: 42px;
 }
 
 .button_q {
@@ -188,6 +177,7 @@ body {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: 0 auto;
 
 }
 
@@ -353,6 +343,7 @@ body {
     line-height: 1.5;
     color: var(--secondary-whitecolor);
     letter-spacing: 0.02em;
+    max-width: 264px;
 
 }
 
